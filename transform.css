@@ -1,0 +1,101 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  place-items: center;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: grid;
+  place-items: center;
+  transition: transform 3s ease-out 300ms;
+}
+
+.world {
+  background-image: url("images/nasa-our-home.gif");
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-size: contain;
+  margin-top: 3em;
+  transition: all 3000ms;
+}
+
+.container:hover .world{
+  
+  background-image: url("images/angry.png");
+   transition: transform 3s ease-out 300ms;
+  transition: all 3000ms;
+  
+}
+.container:hover{
+    transform: scale(2.2);
+    transition: transform 3s ease-out 300ms;
+
+}
+
+
+.facebook {
+  background-image: url("images/facebook.webp");
+
+  transition: transform 10s ease-out 300ms;
+  transform: scale(0.2) rotate(5turn) translate(300px, 170%);
+}
+.instagram {
+  background-image: url("images/instagram.webp");
+
+  transition: transform 10s ease-out 300ms;
+  transform: scale(0.2) rotate(4turn) translate(400px, 10%);
+}
+.twitter {
+  background-image: url("images/twitter.webp");
+
+  transition: transform 10s ease-out 300ms;
+  transform: scale(0.2) rotate(4turn) translate(70px, -130%);
+}
+.whatsapp {
+  background-image: url("images/whatsapp.webp");
+
+  transition: transform 10s ease-out 300ms;
+  transform: scale(0.2) rotate(4turn) translate(-260px, 210%);
+}
+.pinterest {
+  background-image: url("images/instagram.webp");
+
+  transition: transform 10s ease-out 300ms;
+  transform: scale(0.2) rotate(4turn) translate(-200px, 200%);
+}
+.tiktok {
+  background-image: url("images/tiktokk.png");
+
+  transition: transform 10s ease-out 300ms;
+  transform: scale(0.2) rotate(4turn) translate(-300px, -90%);
+}
+
+.snapchat {
+  background-image: url("images/snapchatt.png");
+
+  transition: transform 10s ease-out 300ms;
+  transform: scale(0.2) rotate(4turn) translate(-400px, 50%);
+}
+
+.youtube {
+  background-image: url("images/youtubee.png");
+  transition: transform 10s ease-out 300ms;
+  transform: scale(0.2) rotate(5turn) translate(20px, 250%);
+}
+.box {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-size: contain;
+}
+
